@@ -1,0 +1,17 @@
+Package: OlympicGames
+Title: Paquete para los datos historicos de los Juegos Olimpicos modernos desde la edicion de Atenas 1896
+Version: 3.9
+Authors@R: 
+    person(given = "MIGUEL",
+           family = "VELASQUEZ",
+           role = c("aut", "cre"),
+           email = "miguelvc4@outlook.com")
+Description: Este paquete contiene el codigo necesario para cargar la informacion historica de los Juegos Olimpicos, desde la edicion de Atenas 1896.Ademas permite generar una serie de visualizaciones interactivas en base a estos datos, asi como la generacion de un Dashboard Dinamico.
+Imports: RCurl,dplyr,htmlwidgets,shiny,shinydashboard,tidyverse,ggplot2,maps,plotly,stringr,downloader
+Suggests:DT,testthat
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends: R(>= 2.10)
+
