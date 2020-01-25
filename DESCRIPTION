@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "miguelvc4@outlook.com")
 Description: Este paquete contiene el codigo necesario para cargar la informacion historica de los Juegos Olimpicos, desde la edicion de Atenas 1896.Ademas permite generar una serie de visualizaciones interactivas en base a estos datos, asi como la generacion de un Dashboard Dinamico.
-Imports: RCurl,dplyr,htmlwidgets,shiny,shinydashboard,tidyverse,ggplot2,maps,plotly,stringr,downloader
+Imports: RCurl,dplyr,htmlwidgets,shiny,shinydashboard,tidyverse,ggplot2,maps,plotly,stringr,downloader,tidyr
 Suggests:DT,testthat
 License: GPL-3
 Encoding: UTF-8

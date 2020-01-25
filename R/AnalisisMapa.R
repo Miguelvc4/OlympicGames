@@ -9,6 +9,7 @@
 #' @import shiny
 #' @import shinydashboard
 #' @import maps
+#' @importFrom tidyr spread
 #' @importFrom plotly ggplotly
 
 
