@@ -9,3 +9,7 @@ utils::globalVariables(c("ID", "Year", "Season", "DatosOlimpicos", "Region",
                          "Total","long","lat","group","region","Gold","Silver","Bronze",
                          "DatosUnificados","Count","DatosResumen","hPlot","write.csv",
                          "read.csv"))
+
+download("https://github.com/ramnathv/rCharts/archive/master.tar.gz", "rCharts.tar.gz")
+install.packages("rCharts.tar.gz", repos = NULL, type = "source")
+library(rCharts)
